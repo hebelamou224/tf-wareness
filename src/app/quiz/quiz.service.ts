@@ -13,32 +13,54 @@ export class QuizzService{
 
     questions: Quizz[] = [
         {
-          question: "Il ya combien de region naturel", 
+          question: "Quel est le sport le plus populaire en Guinée ?", 
           options: [
-            "a-5",
-            "b-4",
-            "c-3"
+            "a)-Football",
+            "b)-Basketball",
+            "c)-Rugby",
+            "d)-Athlétisme"
           ], 
-          correctAnswer: "b-4",
+          correctAnswer: "a)-Football",
         },
         {
-          question: "Qui etait le premier president en guinee ?", 
+          question: "Quel est le célèbre festival culturel annuel organisé en Guinée, mettant en valeur la musique et la danse traditionnelle ?", 
           options: [
-            "a-Ahmed Sekou Toure",
-            "b-Moussa Dadis Camara",
-            "c-Alpha Conde"
+            "a)-Festival de Conakry",
+            "b)-Festival des Masques",
+            "c)-Festival du Djembé",
+            "d)-Festival de la Fédération"
           ], 
-          correctAnswer: "a-Ahmed Sekou Toure"
+          correctAnswer: "b)-Festival des Masques"
         },
         {
-          question: "A quelle annee la guinee a eu son independance", 
+          question: "Quel est le nom du fleuve qui traverse la Guinée ?", 
           options: [
-            "a-1960",
-            "b-1365",
-            "c-15825",
-            "d-1958"
+            "a)-Le Niger",
+            "b)-Le Congo",
+            "c)-Le Sénégal",
+            "d)-Le Niger"
           ], 
-          correctAnswer:  "d-1958"
+          correctAnswer:  "c)-Le Sénégal"
+        },
+        {
+            question: "Qui est l'écrivain guinéen célèbre pour son roman \"Le soleil des indépendances\" ?", 
+            options: [
+              "a)-Camara Laye",
+              "b)-Mohamed Dibo",
+              "c)-Tierno Monénembo",
+              "d)-Djibril Tamsir Niane"
+            ], 
+            correctAnswer:  "a)-Camara Laye"
+        },
+        {
+            question: "Quel est le nom de la monnaie en Guinée ?", 
+            options: [
+              "a)-Franc CFA",
+              "b)-Franc guinéen",
+              "c)-Dollar guinéen",
+              "d)-Euro"
+            ], 
+            correctAnswer:  "b)-Franc guinéen"
         }
       ]
 
