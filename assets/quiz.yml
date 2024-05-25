@@ -1,0 +1,336 @@
+- question: "Quel est le sport le plus populaire en Guinée ?"
+  correctAnswer: "a)-Football"
+  options:
+    - a)-Football
+    - b)-Basketball
+    - c)-Rugby
+    - d)-Athlétisme
+- question: "Quel est le célèbre festival culturel annuel organisé en Guinée, mettant en valeur la musique et la danse traditionnelle ?"
+  correctAnswer: "b)-Festival des Masques"
+  options:
+    - "a)-Festival de Conakry"
+    - "b)-Festival des Masques"
+    - "c)-Festival du Djembé"
+    - "d)-Festival de la Fédération"
+- question: "Quel est le nom du fleuve qui traverse la Guinée ?"
+  correctAnswer:  "c)-Le Sénégal"
+  options:
+    - "a)-Le Niger"
+    - "b)-Le Congo"
+    - "c)-Le Sénégal"
+    - "d)-Le Niger"
+- question: "Qui est l'écrivain guinéen célèbre pour son roman \"Le soleil des indépendances\" ?"
+  options:
+    - "a)-Camara Laye"
+    - "b)-Mohamed Dibo"
+    - "c)-Tierno Monénembo"
+    - "d)-Djibril Tamsir Niane"
+  correctAnswer:  "a)-Camara Laye"
+- question: "Quel est le nom de la monnaie en Guinée ?"
+  options:
+    - "a)-Franc CFA"
+    - "b)-Franc guinéen"
+    - "c)-Dollar guinéen"
+    - "d)-Euro"
+  correctAnswer:  "b)-Franc guinéen"
+- question: Quel est le groupe ethnique le plus important en Guinée ?
+  options:
+    - a)-Peuls
+    - b)-Malinkés
+    - c)-Soussous
+    - d)-Forestiers
+  correctAnswer : b)-Malinkés
+- question: Quel est le nom du parc national en Guinée abritant une population d'éléphants de forêt ?
+  options:
+    - a) Parc National de la Badiar
+    - b) Parc National du Haut-Niger
+    - c) Parc National de la Guinée Forestière
+    - d) Parc National du Niokolo Koba
+  correctAnswer : a) Parc National de la Badiar 
+- question: Quel est le nom du célèbre groupe de musique guinéen, connu pour son mélange de styles traditionnels et modernes ?
+  options:
+    - a) Bembeya Jazz
+    - b) Les Amazones de Guinée
+    - c) Fatala
+    - d) Syli National
+  correctAnswer : a) Bembeya Jazz
+- question: Quel est le monument emblématique de Conakry, capitale de la Guinée ?
+  options:
+    - a) La Tour Eiffel
+    - b) La Statue de la Liberté
+    - c) Le Monument aux Héros de l'Indépendance
+    - d) Le Colisée
+  correctAnswer : c) Le Monument aux Héros de l'Indépendance
+- question: Quel est le nom de la plus grande réserve naturelle de Guinée, abritant une variété d'espèces animales et végétales ?
+  options:
+    - a) Parc National du Niokolo Koba
+    - b) Parc National de la Guinée Forestière
+    - c) Réserve Naturelle de Ziama
+    - d) Réserve de Faune de Dindéfélo
+  correctAnswer : c) Réserve Naturelle de Ziama
+- question: Quelle est la plus grande ville portuaire de Guinée ?
+  options:
+    - a) Labé
+    - b) Kankan
+    - c) Conakry
+    - d) Nzérékoré
+  correctAnswer : c) Conakry
+- question: Quel est l'instrument de musique traditionnel le plus associé à la Guinée ?
+  options:
+    - a) Kora
+    - b) Balafon
+    - c) Djembé
+    - d) N'goni
+  correctAnswer : c) Djembé
+- question: Quelle est la principale source de revenus d'exportation de la Guinée ?
+  options:
+    - a) Le cacao
+    - b) Les diamants
+    - c) La bauxite
+    - d) Le pétrole
+  correctAnswer : c) La bauxite
+- question: Quel est le nom de l'université la plus ancienne et la plus prestigieuse de Guinée ?
+  options:
+    - a) Université Gamal Abdel Nasser de Conakry
+    - b) Université de Kankan
+    - c) Université de Labé
+    - d) Université de Nzérékoré
+  correctAnswer : a) Université Gamal Abdel Nasser de Conakry
+- question: Quel événement historique majeur a eu lieu le 2 octobre 1958 en Guinée ?
+  options:
+    - a) La fin de la Seconde Guerre mondiale
+    - b) L'indépendance de la Guinée
+    - c) La première élection démocratique
+    - d) La signature de la Constitution
+  correctAnswer : b) L'indépendance de la Guinée
+- question: Quelle chaîne de montagnes traverse la Guinée, offrant un paysage spectaculaire et des sources de plusieurs fleuves ?
+  options:
+    - a) Les montagnes de l'Atlas
+    - b) Les montagnes de Simandou
+    - c) Le Fouta Djallon
+    - d) Les montagnes Mandingues
+  correctAnswer : c) Le Fouta Djallon
+- question: Quel est le nom de l'aéroport international principal de la Guinée ?
+  options:
+    - a) Aéroport International Félix-Houphouët-Boigny
+    - b) Aéroport International Léopold Sédar Senghor
+    - c) Aéroport International Ahmed Sékou Touré
+    - d) Aéroport International Modibo Keita
+  correctAnswer : c) Aéroport International Ahmed Sékou Touré
+- question: Quel est le pourcentage approximatif de la population guinéenne qui pratique l'Islam ?
+  options:
+    - a) 20%
+    - b) 40%
+    - c) 60%
+    - d) 85%
+  correctAnswer : d) 85%
+- question: Quelle est la plus grande île de l'archipel des îles de Loos au large de Conakry ?
+  options:
+    - a) Tamara
+    - b) Room
+    - c) Kassa
+    - d) Fotoba
+  correctAnswer : a) Tamara
+- question: Qui est l'actuel président de la Guinée (à partir de mai 2023) ?
+  options:
+    - a) Alpha Condé
+    - b) Mamady Doumbouya
+    - c) Cellou Dalein Diallo
+    - d) Lansana Conté
+  correctAnswer : b) Mamady Doumbouya
+- question: Quel écrivain guinéen a remporté le Prix Renaudot en 2008 pour son roman "Le roi de Kahel" ?
+  options:
+    - a) Tierno Monénembo
+    - b) Camara Laye
+    - c) Williams Sassine
+    - d) Lamine Kamara
+  correctAnswer : a) Tierno Monénembo
+- question: Quelle ville de Guinée est connue pour ses gisements de fer et a fait l'objet d'importants projets miniers ?
+  options:
+    - a) Siguiri
+    - b) Boké
+    - c) Kankan
+    - d) Simandou
+  correctAnswer : d) Simandou
+- question: Quel est le nom de l'œuvre historique majeure de Djibril Tamsir Niane, publiée en 1960 ?
+  options: 
+    - a) "L'Étrange Destin de Wangrin"
+    - b) "Les Soleils des Indépendances"
+    - c) "Sundiata, ou l'épopée mandingue"
+    - d) "L'Aventure ambiguë"
+  correctAnswer : c) "Sundiata, ou l'épopée mandingue"
+- question: Quelle est la plus ancienne organisation politique guinéenne, fondée en 1947 ?
+  options:
+    - a) Rassemblement Démocratique Africain (RDA)
+    - b) Parti Démocratique de Guinée (PDG)
+    - c) Union pour le Progrès de la Guinée (UPG)
+    - d) Mouvement Démocratique de Guinée (MDG)
+  correctAnswer : b) Parti Démocratique de Guinée (PDG)
+- question: En quelle année la Guinée est-elle devenue membre de l'Organisation de la Coopération Islamique (OCI) ?
+  options:
+    - a) 1969
+    - b) 1971
+    - c) 1974
+    - d) 1976
+  correctAnswer : a) 1969
+- question: Quelle est la particularité géographique du mont Nimba, situé à la frontière entre la Guinée, la Côte d'Ivoire et le Liberia ?
+  options:
+    - a) C'est le plus haut sommet d'Afrique de l'Ouest
+    - b) Il abrite des espèces endémiques rares
+    - c) Il est un site de patrimoine mondial de l'UNESCO
+    - d) Toutes les réponses précédentes
+  correctAnswer : d) Toutes les réponses précédentes
+- question: Quel était le surnom donné à la milice de jeunes créée par Ahmed Sékou Touré en Guinée ?
+  options:
+    - a) Les Jeunes Lions
+    - b) Les Verts Berets
+    - c) Les Volontaires de la Révolution
+    - d) Les Dragons Noirs
+  correctAnswer : c) Les Volontaires de la Révolution
+- question: Quelle ville guinéenne est célèbre pour ses tombes mégalithiques et fait partie du patrimoine mondial de l'UNESCO ?
+  options:
+    - a) Kindia
+    - b) Labé
+    - c) Siguiri
+    - d) Nzérékoré
+  correctAnswer : c) Siguiri
+- question: Quelle est la signification du mot "Guinée" dans la langue Susu ?
+  options: 
+    - a) Terre de l'or
+    - b) Terre des hommes
+    - c) Terre de liberté
+    - d) Terre des rivières
+  correctAnswer : b) Terre des hommes
+- question: Qui est la première femme guinéenne à avoir reçu le titre de ministre en Guinée ?
+  options: 
+    - a) Jeanne Martin Cissé
+    - b) Hadja Aissatou Bella Diallo
+    - c) Aminata Touré
+    - d) Hadja Makalé Camara
+  correctAnswer : a) Jeanne Martin Cissé
+- question: En quelle année le président Alpha Condé a-t-il été réélu pour un troisième mandat controversé en Guinée ?
+  options: 
+    - a) 2018
+    - b) 2019
+    - c) 2020
+    - d) 2021
+  correctAnswer : c) 2020
+- question: Quel événement politique majeur a eu lieu en Guinée en septembre 2021 ?
+  options: 
+    - a) Révision constitutionnelle
+    - b) Coup d'État militaire
+    - c) Élections législatives
+    - d) Référendum sur l'indépendance
+  correctAnswer : b) Coup d'État militaire
+- question: Quel chef militaire a pris le pouvoir en Guinée après le coup d'État de septembre 2021 ?
+  options: 
+    - a) Moussa Dadis Camara
+    - b) Mamady Doumbouya
+    - c) Ibrahima Sory Touré
+    - d) Sekouba Konaté
+  correctAnswer : b) Mamady Doumbouya
+- question: En quelle année la Guinée a-t-elle connu une épidémie majeure d'Ebola, touchant gravement le pays ?
+  options:
+    - a) 2012
+    - b) 2014
+    - c) 2016
+    - d) 2018
+  correctAnswer : b) 2014
+- question: Quel accord minier important a été signé en 2020 pour l'exploitation des réserves de bauxite en Guinée ?
+  options:
+    - a) Accord avec Rio Tinto
+    - b) Accord avec SMB-Winning Consortium
+    - c) Accord avec BHP Billiton
+    - d) Accord avec Alcoa
+  correctAnswer : b) Accord avec SMB-Winning Consortium
+- question: Quel est le nom de l'opposant politique guinéen qui est décédé en 2021, créant une onde de choc dans le paysage politique du pays ?
+  options:
+    - a) Sidya Touré
+    - b) Cellou Dalein Diallo
+    - c) Lansana Conté
+    - d) Mamadou Cellou Baldé
+  correctAnswer : d) Mamadou Cellou Baldé
+- question: Quel projet d'infrastructure majeur a été lancé en 2019 pour améliorer la connectivité en Guinée ?
+  options:
+    - a) Projet de chemin de fer Conakry-Bamako
+    - b) Extension du port de Conakry
+    - c) Construction du barrage de Souapiti
+    - d) Modernisation de l'aéroport de Conakry
+  correctAnswer : c) Construction du barrage de Souapiti
+- question: En quelle année la Guinée a-t-elle organisé un constitutionnel controversé, permettant à Alpha Condé de briguer un troisième mandat ?
+  options: 
+    - a) 2017
+    - b) 2018
+    - c) 2019
+    - d) 2020
+  correctAnswer : d) 2020
+- question: Quel est le nom de la militante guinéenne des droits de l'homme qui a reçu le Prix Martin Ennals en 2018 ?
+  options: 
+    - a) Asmaou Diallo
+    - b) Fatoumata Binta Diallo
+    - c) Hadja Idrissa Bah
+    - d) Fatou Bensouda
+  correctAnswer : c) Hadja Idrissa Bah
+- question: Quelle entreprise chinoise a investi massivement dans le secteur minier guinéen au cours des dernières années ?
+  options: 
+    - a) Huawei
+    - b) Sinohydro
+    - c) Chinalco
+    - d) China Power Investment Corporation
+  correctAnswer : c) Chinalco
+- question: Quel événement politique majeur a eu lieu en Guinée en septembre 2021 ?
+  options: 
+    - a) Révision constitutionnelle
+    - b) Coup d'État militaire
+    - c) Élections législatives
+    - d) Référendum sur l'indépendance
+  correctAnswer : b) Coup d'État militaire
+- question: Qui est l'actuel président de la Guinée après le coup d'État de septembre 2021 ?
+  options: 
+    - a) Alpha Condé
+    - b) Ibrahima Kassory Fofana
+    - c) Mamady Doumbouya
+    - d) Cellou Dalein Diallo
+  correctAnswer : c) Mamady Doumbouya
+- question: Quelle crise sanitaire a touché la Guinée en 2021, entraînant une réponse internationale ?
+  options:
+    - a) Épidémie de choléra
+    - b) Épidémie d'Ebola
+    - c) Épidémie de malaria
+    - d) Épidémie de dengue
+  correctAnswer : b) Épidémie d'Ebola
+- question: Quel projet d'infrastructure a été relancé en 2022 pour améliorer l'approvisionnement en électricité en Guinée ?
+  options:
+    - a) Barrage de Kaléta
+    - b) Barrage de Souapiti
+    - c) Barrage de Fomi
+    - d) Barrage de Konkouré
+  correctAnswer : b) Barrage de Souapiti
+- question: Quelle réforme économique a été annoncée en 2022 pour stimuler l'investissement étranger en Guinée ?
+  options:
+    - a) Réforme du code minier
+    - b) Réforme de la fiscalité
+    - c) Réforme du secteur bancaire
+    - d) Réforme de la fonction publique
+  correctAnswer : a) Réforme du code minier
+- question: En mars 2023, la Guinée a signé un accord avec quel pays pour renforcer la coopération militaire et sécuritaire ?
+  options: 
+    - a) France
+    - b) Russie
+    - c) Chine
+    - d) États-Unis
+  correctAnswer : b) Russie
+- question: Quel secteur économique a été particulièrement ciblé par les réformes et les investissements en 2022 en Guinée ?
+  options: 
+    - a) Agriculture
+    - b) Industrie textile
+    - c) Mines et énergie
+    - d) Technologie de l'information
+  correctAnswer : c) Mines et énergie
+- question: Quelle a été la réponse de la CEDEAO (Communauté économique des États de l'Afrique de l'Ouest) au coup d'État de septembre 2021 en Guinée ?
+  options:
+    - a) Imposition de sanctions économiques
+    - b) Suspension de la Guinée de l'organisation
+    - c) Envoi de troupes de maintien de la paix
+    - d) Reconnaissance du nouveau gouvernement
+  correctAnswer : b) Suspension de la Guinée de l'organisation
