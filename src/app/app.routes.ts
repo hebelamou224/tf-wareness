@@ -10,7 +10,7 @@ export const routes: Routes = [
     {path: 'results', component: ResultComponent, /*canActivate: [AuthGuard]*/},
     {path: 'revision', component: RevisionComponent ,/*canActivate: [AuthGuard]*/},
     {path: "login", component: LoginComponent},
-    {path: "", redirectTo: "/revision", pathMatch: 'full'},
+    {path: "", redirectTo: "/login", pathMatch: 'full'},
     { path: '**', redirectTo: '/revision' }
    
 ];
