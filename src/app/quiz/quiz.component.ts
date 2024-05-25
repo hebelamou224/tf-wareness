@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 import { Quizz, QuizzService } from './quiz.service';
+import { LoginService } from '../login/login.service';
 
 
 @Component({
@@ -32,17 +33,29 @@ export class QuizComponent implements OnInit {
   selectedResponse: boolean = false;
   shwoResult: boolean = false;
   userAnswers: string[] = []
+  user: any;
 
   constructor(
     private router: Router,
-    private quizzService: QuizzService
+    private quizzService: QuizzService,
+    private loginService: LoginService
   ){
     this.userAnswer = ''
-    this.questions = this.quizzService.getQuestions()
+    //this.questions = this.quizzService.getQuestions()
   }
 
   ngOnInit() {
-    //this.startTimer();
+    this.loginService.getUserData().subscribe(userData => {
+      this.user = userData;
+    });
+    console.log('Chargement de donne')
+    this.quizzService.loadDataQuiz('assets/quiz.yml').subscribe(
+      data=>{
+        this.questions = data
+        console.log(this.questions)
+      }
+    )
+    console.log('find de chargement')
   }
 
   nextQuestion(){

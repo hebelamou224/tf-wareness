@@ -1,5 +1,7 @@
 <div class="quiz-container">
-
+    <div>
+      Bienvenu {{user?.username}} dans le test de niveau
+    </div>
     <div *ngIf="!gameStarted">
       <button class="start-button" (click)="startGame()">Démarrer le jeu</button>
     </div>

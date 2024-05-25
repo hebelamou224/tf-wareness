@@ -5,6 +5,7 @@ import { CardModule } from 'primeng/card';
 import { ButtonModule } from 'primeng/button';
 import { FieldsetModule } from 'primeng/fieldset';
 import { Router } from '@angular/router';
+import { LoginService } from '../login/login.service';
 
 @Component({
   selector: 'app-revision',
@@ -23,18 +24,34 @@ export class RevisionComponent implements OnInit {
 
   questionnaires: Quizz[] = [];
   currentQuestionIndex = 0
+  user: any;
 
-  constructor(private quizService: QuizzService, private router: Router,) { } // Injectez le service QuizService
+  constructor(private quizService: QuizzService, 
+    private loginService: LoginService,
+    private router: Router,) { } // Injectez le service QuizService
   
   ngOnInit(): void {
-    this.getQuestionnaires(); // Appelez la méthode pour récupérer les questionnaires lors de l'initialisation du composant
+    this.loginService.getUserData().subscribe(userData => {
+      this.user = userData;
+    });
+    this.quizService.loadDataQuiz('assets/quiz.yml').subscribe(
+      data=>{
+        this.questionnaires = data
+        console.log('revision data')
+        console.log(this.questionnaires)
+      }
+    )
   }
 
   getQuestionnaires(): void {
-    this.quizService.getAllQuestionnaires().subscribe((data: Quizz[]) => {
-      this.questionnaires = data; // Stockez les questionnaires récupérés dans la variable questionnaires
-      console.log(data)
-    });
+    this.quizService.loadDataQuiz('assets/quiz.yml').subscribe(
+      data=>{
+        this.questionnaires = data
+        console.log('revision data')
+        console.log(this.questionnaires)
+      }
+    )
+
   }
 
   redirectToQuizPage() {

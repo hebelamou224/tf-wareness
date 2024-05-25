@@ -1,11 +1,30 @@
-import { Injectable } from "@angular/core";
+import { Injectable, OnInit } from "@angular/core";
+import { BehaviorSubject, Observable } from "rxjs";
 
-@Injectable()
+@Injectable({
+    providedIn: 'root'
+})
 export class LoginService{
-    name: string = ''
-    isLogin: boolean = false;
-
-    public setName(name: string){
-        this.name = name;
+    private loggedIn = new BehaviorSubject<boolean>(false);
+    private userData = new BehaviorSubject<any>(null);
+  
+    constructor() {}
+  
+    login(user: any, logged: boolean): void {
+      this.loggedIn.next(logged);
+      this.userData.next(user);
+    }
+  
+    logout(): void {
+      this.loggedIn.next(false);
+      this.userData.next(null);
+    }
+  
+    isLoggedIn(): Observable<boolean> {
+      return this.loggedIn.asObservable();
+    }
+  
+    getUserData(): Observable<any> {
+      return this.userData.asObservable();
     }
 }

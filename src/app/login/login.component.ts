@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { Router } from '@angular/router';
 import { LoginService } from './login.service';
@@ -15,21 +15,32 @@ import { LoginService } from './login.service';
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
-export class LoginComponent {
+export class LoginComponent implements OnInit {
 
   username: string = '';
   password: string = '';
 
   constructor(private router: Router, private loginService: LoginService) { }
+  ngOnInit(): void {
+    this.loginService.isLoggedIn().subscribe(value=>{
+      console.log('login: ', value)
+    })
+    this.loginService.getUserData().subscribe(value=>{
+      console.log('User data: ', value)
+    })
+  }
 
   login() {
-    // Vérifiez les informations d'identification, par exemple, à partir d'un service d'authentification
+    console.log('Login page, username: ', this.username, ' Password: ', this.password)
+    
     if (this.password === 'trustifytechnology') {
-      // Si les informations d'identification sont correctes, redirigez l'utilisateur vers la page du quiz
-      this.loginService.setName(this.username)
+      console.log('Correct, username: ', this.username, ' Password: ', this.password)
+      
+      const user = {username: this.username}
+      this.loginService.login(user, true)
       this.router.navigate(['/revision']);
     } else {
-      // Sinon, affichez un message d'erreur ou effectuez d'autres actions nécessaires
+      
       alert('Le mot de passe est inccorect veuillez entrer trustifytechnology');
     }
   }
